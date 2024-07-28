@@ -1,5 +1,10 @@
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/Portfolio";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Work",
+};
 
 export default function WorkPage() {
   return (
